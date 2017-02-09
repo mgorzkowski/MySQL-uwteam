@@ -4,7 +4,7 @@
 # w odmetach Internetu oryginalny plik nauka.sql
 # W pliku moga pojawic sie rozbieznosci wzgledem oryginalu.
 
-# usuwanie istnieacych tabel
+# usuwanie istniejacych tabel
 drop table pracownicy;
 drop table dzialy;
 
