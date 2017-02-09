@@ -4,7 +4,7 @@
 # w odmetach Internetu oryginalny plik nauka.sql
 # W pliku moga pojawic sie rozbieznosci wzgledem oryginalu.
 
-# usuwanie istniejacych tabel
+# usuwanie istnieacych tabel
 drop table pracownicy;
 drop table dzialy;
 
@@ -27,6 +27,9 @@ create table pracownicy(id int auto_increment,
 insert into pracownicy values
 	(NULL, 0, "Jan", "Nowak", 1, 2500),
 	(NULL, 0, "Adam", "Kowalski", 1, 3500),
+	(NULL, 1, "Robert", "Brzozowski", 2, 1500);
+delete from pracownicy where id = 3;
+insert into pracownicy values		
 	(NULL, 1, "Robert", "Brzozowski", 2, 1500),
 	(NULL, 2, "Agata", "Nowak", 2,  4444),
 	(NULL, 2, "Bartosz", "Lipa", 2, 555),
